@@ -32,5 +32,12 @@ namespace Gitacations
                 
             }
         }
+
+        private void checkAPIStatusToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool testStatus;
+
+            WebRequest
+        }
     }
 }

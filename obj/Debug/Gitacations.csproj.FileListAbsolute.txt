@@ -1,0 +1,15 @@
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\Gitacations.exe.config
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\Gitacations.exe
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\Gitacations.pdb
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\System.ValueTuple.dll
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.xml
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\System.ValueTuple.xml
+D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.Form1.resources
+D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.Properties.Resources.resources
+D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.csproj.GenerateResource.cache
+D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.csproj.CoreCompileInputs.cache
+D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.csproj.CopyComplete
+D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.exe
+D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.pdb

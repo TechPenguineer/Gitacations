@@ -32,6 +32,7 @@ namespace Gitacations
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sendTestNotificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkAPIStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +49,8 @@ namespace Gitacations
             // toolsToolStripMenuItem
             // 
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sendTestNotificationToolStripMenuItem});
+            this.sendTestNotificationToolStripMenuItem,
+            this.checkAPIStatusToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
@@ -59,6 +61,13 @@ namespace Gitacations
             this.sendTestNotificationToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.sendTestNotificationToolStripMenuItem.Text = "Send Test Notification";
             this.sendTestNotificationToolStripMenuItem.Click += new System.EventHandler(this.sendTestNotificationToolStripMenuItem_Click);
+            // 
+            // checkAPIStatusToolStripMenuItem
+            // 
+            this.checkAPIStatusToolStripMenuItem.Name = "checkAPIStatusToolStripMenuItem";
+            this.checkAPIStatusToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.checkAPIStatusToolStripMenuItem.Text = "Check API Status";
+            this.checkAPIStatusToolStripMenuItem.Click += new System.EventHandler(this.checkAPIStatusToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -81,6 +90,7 @@ namespace Gitacations
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sendTestNotificationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkAPIStatusToolStripMenuItem;
     }
 }
 
