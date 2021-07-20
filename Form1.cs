@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Toolkit.Uwp.Notifications;
+using System.Net.requests
 
 namespace Gitacations
 {
@@ -35,9 +36,7 @@ namespace Gitacations
 
         private void checkAPIStatusToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            bool testStatus;
-
-            WebRequest
+               
         }
     }
 }
