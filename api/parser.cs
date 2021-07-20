@@ -19,6 +19,11 @@ namespace GitactionAPI
             client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
             HttpResponseMessage response = client.GetAsync(api_url).Result;
 
+            if(response.IsSuccessStatusCode)
+            {
+                var result = response.Content.ReadAsStringAsync().Result;
+                var s = Newtonsoft.Json.JsonConvert.DeserializeObject(result);
+            }
 
         }
     }
