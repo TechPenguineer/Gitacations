@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Toolkit.Uwp.Notifications;
 
 namespace Gitacations
 {
@@ -15,6 +16,21 @@ namespace Gitacations
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void sendTestNotificationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               new ToastContentBuilder()
+                    .AddText("Gitacations")
+                    .AddText("Test notificaion successfully sent")
+                    .Show();
+            }
+            catch(Exception)
+            {
+                
+            }
         }
     }
 }
