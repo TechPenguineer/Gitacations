@@ -13,3 +13,4 @@ D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.csproj.Core
 D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.csproj.CopyComplete
 D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.exe
 D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.pdb
+D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.csproj.AssemblyReference.cache

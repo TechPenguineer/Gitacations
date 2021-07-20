@@ -50,7 +50,7 @@ namespace Gitacations
                             .AddText("API Status Request")
                             .AddText("API Status returned as OK")
                             .Show();
-                    } else if(response.StatusCode != HttpStatusCode.OK )
+                    } else 
                     {
                         new ToastContentBuilder()
                               .AddText("API Status Request")
@@ -59,7 +59,12 @@ namespace Gitacations
                     }
                 }
             }catch(WebException)
-            { }
+            {
+                new ToastContentBuilder()
+                  .AddText("API Status Request")
+                  .AddText("There was an error trying to request the api")
+                  .Show();
+            }
         }
     }
 }
