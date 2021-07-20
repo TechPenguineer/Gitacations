@@ -38,5 +38,10 @@ namespace Gitacations
         {
             GitactionAPI.apiINFO.returnApiStatus();
         }
+
+        private void testAPIParserToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GitactionAPI.parser.parseApiInfo("TechPenguineer");
+        }
     }
 }

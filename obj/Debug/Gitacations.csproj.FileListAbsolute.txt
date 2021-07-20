@@ -14,3 +14,5 @@ D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.csproj.Copy
 D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.exe
 D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.pdb
 D:\Desktop\Gitacations\Gitacations\Gitacations\obj\Debug\Gitacations.csproj.AssemblyReference.cache
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\Gitacations\Gitacations\Gitacations\bin\Debug\Newtonsoft.Json.xml

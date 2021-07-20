@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Web;
 using System;
+using Microsoft.Toolkit.Uwp.Notifications;
+
 namespace GitactionAPI
 {
     public class parser
@@ -23,6 +25,17 @@ namespace GitactionAPI
             {
                 var result = response.Content.ReadAsStringAsync().Result;
                 var s = Newtonsoft.Json.JsonConvert.DeserializeObject(result);
+                new ToastContentBuilder()
+                    .AddText("API Parser")
+                    .AddText("API Response was successfuly parsed")
+                    .Show();
+            }
+            else
+            {
+                new ToastContentBuilder()
+                     .AddText("API Parser")
+                     .AddText("API Response was unsuccessfuly parsed")
+                     .Show();
             }
 
         }
